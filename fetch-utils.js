@@ -44,7 +44,7 @@ export async function signInHandler(email, password) {
 
 export async function logOutHandler() {
     await client.auth.signOut();
-    window.location.href = '/';
+    window.location.href = '../';
 }
 
 

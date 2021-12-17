@@ -117,3 +117,10 @@ footer {
     background-color: azure;
     padding: 2rem;
 }
+
+.poll {
+    display: flex;
+    background-color: lightcyan;
+    border: 1px solid rebeccapurple;
+
+}
