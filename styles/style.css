@@ -89,3 +89,31 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+
+.main-section {
+    display: flex;
+    /* flex-direction: row; */
+    padding: 2rem;
+    background-color: aquamarine;
+}
+
+.sign-up {
+    border: 2px solid darkmagenta ;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+
+.sign-in {
+    border: 2px solid darkred;
+    padding: 1rem;
+}
+
+.poll-section form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: azure;
+    padding: 2rem;
+}
