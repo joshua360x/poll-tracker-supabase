@@ -82,6 +82,7 @@ logOutBtn.addEventListener('click', async() => {
 
 
 finishPoll.addEventListener('click', async() => {
+    currentPoll.textContent = '';
     let poll = {
         QUESTION: question,
         OPTION_A: optionA,
