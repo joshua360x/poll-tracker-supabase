@@ -16,12 +16,12 @@ signUpForm.addEventListener('submit', async(e) => {
     console.log('🚀 ~ file: app.js ~ line 15 ~ signUpForm.addEventListener ~ user', user);
 
 
-    //   if (user){
-    //     redirectToPolls();
-    // } else {
-    //     // eslint-disable-next-line no-console
-    //     console.error(user);
-    // }
+    if (user){
+        redirectToPolls();
+    } else {
+        // eslint-disable-next-line no-console
+        console.error(user);
+    }
 });
 
 
